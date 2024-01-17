@@ -73,6 +73,12 @@ namespace Choose_Your_Own_Adventure
                 {
                     // Now we have to check IF the condition is true, then we need to print the written text to the user!
                     Console.WriteLine("The door is locked! See if one of you three keys will open it.");
+
+                    // Here we aks the user for a number that represents the key he wants to use
+                    // We also made sure that the data saved in the string variable keyChoice is always with upper case letters!
+                    Console.Write("Enter a number (1-3): ");
+                    string keyChoice = Console.ReadLine();
+                    string upperKeyChoice = keyChoice.ToUpper();
                 }
 
 
