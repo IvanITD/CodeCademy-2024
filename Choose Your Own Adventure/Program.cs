@@ -17,6 +17,11 @@
             Console.WriteLine("It begins on a cold rainy night. " +
                 "You're sitting in your room and hear a noise coming from down the hall. Do you go investigate?");
 
+            // Here I'm using 'Console.WriteLine();' in order to ask the user to type the needed answer!
+
+            Console.WriteLine("Type YES or NO:");
+
+
         }
     }
 }
