@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console Creatures", "Console Creatures\Console Creatures.csproj", "{164E8680-CA26-4755-9B2D-AECC8126B62A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mad Libs", "Mad Libs\Mad Libs.csproj", "{BF630FFA-8D7E-4497-86C5-D9003B73784A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{164E8680-CA26-4755-9B2D-AECC8126B62A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{164E8680-CA26-4755-9B2D-AECC8126B62A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{164E8680-CA26-4755-9B2D-AECC8126B62A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF630FFA-8D7E-4497-86C5-D9003B73784A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF630FFA-8D7E-4497-86C5-D9003B73784A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF630FFA-8D7E-4497-86C5-D9003B73784A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF630FFA-8D7E-4497-86C5-D9003B73784A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
