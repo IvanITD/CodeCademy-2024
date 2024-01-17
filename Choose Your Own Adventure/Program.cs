@@ -25,7 +25,9 @@
 
             string noiseChoice = Console.ReadLine();
 
+            // Here I made a little tweak, in case the user desides to use lower case letters. This function is going to, automaticaly change the letters to upper case!
 
+            string uppernoiseChoice = noiseChoice.ToUpper();
         }
     }
 }
