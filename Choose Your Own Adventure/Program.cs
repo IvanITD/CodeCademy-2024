@@ -40,6 +40,16 @@
                 Console.WriteLine("Type OPEN or KNOCK:");
                 string doorChoice = Console.ReadLine();
                 string upperDoorChoice = doorChoice.ToUpper();
+
+                // Now we wrote and if/if-else statement in order to give multiple answers to the user's answer choice!
+                if (upperDoorChoice == "KNOCK")
+                {
+
+                }
+                else if (upperDoorChoice == "OPEN")
+                {
+
+                }
             }
 
 
