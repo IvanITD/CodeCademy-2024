@@ -71,8 +71,12 @@ namespace Choose_Your_Own_Adventure
                 }
                 else if (upperDoorChoice == "OPEN")
                 {
-
+                    
                 }
+
+
+
+
             }
 
 
