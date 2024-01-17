@@ -21,6 +21,10 @@
 
             Console.WriteLine("Type YES or NO:");
 
+            // Here I am going to get the user's answer and then put it in a string variable named "noiseChoice"
+
+            string noiseChoice = Console.ReadLine();
+
 
         }
     }
