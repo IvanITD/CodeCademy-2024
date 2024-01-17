@@ -56,6 +56,8 @@ namespace Choose_Your_Own_Adventure
                     // After that we save the answer in a string variable named riddleAnswer!
                     Console.WriteLine("Type your answer: ");
                     string riddleAnswer = Console.ReadLine();
+                    string upperRiddleAnswer = riddleAnswer.ToUpper(); // Added this code so that when the user types the write answer, so that it prints with upper case letters!
+
                 }
                 else if (upperDoorChoice == "OPEN")
                 {
