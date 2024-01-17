@@ -20,7 +20,7 @@ namespace Choose_Your_Own_Adventure
                 "You're sitting in your room and hear a noise coming from down the hall. Do you go investigate?");
 
             // Here I'm using 'Console.WriteLine();' in order to ask the user to type the needed answer!
-            Console.WriteLine("Type YES or NO:");
+            Console.Write("Type YES or NO: ");
 
             // Here I am going to get the user's answer and then put it in a string variable named "noiseChoice"
             string noiseChoice = Console.ReadLine();
@@ -40,7 +40,7 @@ namespace Choose_Your_Own_Adventure
 
                 /* Here we are asking the user to type the answer he prefers!
                  * After we get the user's answer we have to save it in a string variable named doorChoice! Later on we change the case letters into upper case! */
-                Console.WriteLine("Type OPEN or KNOCK:");
+                Console.Write("Type OPEN or KNOCK: ");
                 string doorChoice = Console.ReadLine();
                 string upperDoorChoice = doorChoice.ToUpper();
 
@@ -54,7 +54,7 @@ namespace Choose_Your_Own_Adventure
 
                     // We ask the user to answer the riddle by typing his prefered answer!
                     // After that we save the answer in a string variable named riddleAnswer!
-                    Console.WriteLine("Type your answer: ");
+                    Console.Write("Type your answer: ");
                     string riddleAnswer = Console.ReadLine();
                     string upperRiddleAnswer = riddleAnswer.ToUpper(); // Added this code so that when the user types the write answer, so that it prints with upper case letters!
 
