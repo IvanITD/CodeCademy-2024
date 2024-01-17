@@ -36,7 +36,8 @@
             }
             else if (upperNoiseChoice == "YES") // Here we wrote an else if statement to have a second option if the user chooses to answer YES
             {
-
+                // Added some more story to the game in order for the user to be able to continue!
+                Console.WriteLine("You walk into the hallway and see a light coming from under a door down the hall. \nYou walk towards it. Do you open it or knock?");
             }
 
 
