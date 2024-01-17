@@ -29,6 +29,20 @@
 
             string uppernoiseChoice = noiseChoice.ToUpper();
 
+            // Here I added an if-else statement in order the user to have more options, after the YES or NO answer!
+            if (noiseChoice == "NO")
+            {
+                Console.WriteLine("Not much of an adventure if we don't leave our room! n\THE END.");
+            }
+            else
+            {
+
+            }
+
+
+
+
+
         }
     }
 }
