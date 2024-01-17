@@ -27,14 +27,14 @@
 
             // Here I made a little tweak, in case the user desides to use lower case letters. This function is going to, automaticaly change the letters to upper case!
 
-            string uppernoiseChoice = noiseChoice.ToUpper();
+            string upperNoiseChoice = noiseChoice.ToUpper();
 
             // Here I added an if-else statement in order the user to have more options, after the YES or NO answer!
-            if (noiseChoice == "NO")
+            if (upperNoiseChoice == "NO")
             {
                 Console.WriteLine("Not much of an adventure if we don't leave our room! \nTHE END.");
             }
-            else if (noiseChoice == "YES") // Here we wrote an else if statement to have a second option if the user chooses to answer YES
+            else if (upperNoiseChoice == "YES") // Here we wrote an else if statement to have a second option if the user chooses to answer YES
             {
 
             }
