@@ -11,7 +11,11 @@
             string name = Console.ReadLine();
             Console.WriteLine($"Hello, {name}! Welcome to our story.");
 
-            
+
+            // Here I am printing the first sentence needed for the project!
+
+            Console.WriteLine("It begins on a cold rainy night. " +
+                "You're sitting in your room and hear a noise coming from down the hall. Do you go investigate?");
 
         }
     }
