@@ -32,9 +32,9 @@
             // Here I added an if-else statement in order the user to have more options, after the YES or NO answer!
             if (noiseChoice == "NO")
             {
-                Console.WriteLine("Not much of an adventure if we don't leave our room! n\THE END.");
+                Console.WriteLine("Not much of an adventure if we don't leave our room! \nTHE END.");
             }
-            else
+            else if (noiseChoice == "YES") // Here we wrote an else if statement to have a second option if the user chooses to answer YES
             {
 
             }
