@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mad Libs", "Mad Libs\Mad Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Money Maker", "Money Maker\Money Maker.csproj", "{1F08D402-ED48-4153-8C13-BDFA85195A63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Password Checker", "Password Checker\Password Checker.csproj", "{97C38A15-107A-4B3A-BEFF-749F4C47D1BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1F08D402-ED48-4153-8C13-BDFA85195A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F08D402-ED48-4153-8C13-BDFA85195A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F08D402-ED48-4153-8C13-BDFA85195A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C38A15-107A-4B3A-BEFF-749F4C47D1BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C38A15-107A-4B3A-BEFF-749F4C47D1BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C38A15-107A-4B3A-BEFF-749F4C47D1BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C38A15-107A-4B3A-BEFF-749F4C47D1BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
