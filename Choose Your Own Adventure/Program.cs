@@ -1,4 +1,7 @@
-﻿namespace Choose_Your_Own_Adventure
+﻿using System.Net.NetworkInformation;
+using System.Threading.Tasks;
+
+namespace Choose_Your_Own_Adventure
 {
     internal class Program
     {
@@ -46,7 +49,13 @@
                 {
                     // Here I wrote an print code in order to print the text for the story
                     Console.WriteLine("A voice behind the door speaks. It says, \"Answer this riddle: \" \nPoor people have it. " +
-                        "Rich people need it. If you eat it you die. What is it?");
+                    "Rich people need it. If you eat it you die. What is it?");
+
+
+                    // We ask the user to answer the riddle by typing his prefered answer!
+                    // After that we save the answer in a string variable named riddleAnswer!
+                    Console.WriteLine("Type your answer: ");
+                    string riddleAnswer = Console.ReadLine();
                 }
                 else if (upperDoorChoice == "OPEN")
                 {
