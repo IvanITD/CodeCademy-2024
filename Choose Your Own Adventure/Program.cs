@@ -58,6 +58,16 @@ namespace Choose_Your_Own_Adventure
                     string riddleAnswer = Console.ReadLine();
                     string upperRiddleAnswer = riddleAnswer.ToUpper(); // Added this code so that when the user types the write answer, so that it prints with upper case letters!
 
+                    // The right answer to this question is "NOTHING", and now an if-else statement is going to make that work corectly
+                    if (upperRiddleAnswer == "NOTHING")
+                    {
+                        Console.WriteLine($"The door opens and {upperRiddleAnswer} is there. \nYou turn off the lights and run back to your room and lock the door. \nTHE END.");
+                    }
+                    else // If the user answers anything else we should print this text
+                    {
+                        Console.WriteLine("You answered incorrectly. The door doesn't open. \nTHE END.");
+                    }
+
                 }
                 else if (upperDoorChoice == "OPEN")
                 {
