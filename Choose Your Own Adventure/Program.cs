@@ -44,7 +44,9 @@
                 // Now we wrote and if/if-else statement in order to give multiple answers to the user's answer choice!
                 if (upperDoorChoice == "KNOCK")
                 {
-
+                    // Here I wrote an print code in order to print the text for the story
+                    Console.WriteLine("A voice behind the door speaks. It says, \"Answer this riddle: \" \nPoor people have it. " +
+                        "Rich people need it. If you eat it you die. What is it?");
                 }
                 else if (upperDoorChoice == "OPEN")
                 {
