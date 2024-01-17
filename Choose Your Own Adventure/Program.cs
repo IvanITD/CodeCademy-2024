@@ -71,7 +71,8 @@ namespace Choose_Your_Own_Adventure
                 }
                 else if (upperDoorChoice == "OPEN")
                 {
-                    
+                    // Now we have to check IF the condition is true, then we need to print the written text to the user!
+                    Console.WriteLine("The door is locked! See if one of you three keys will open it.");
                 }
 
 
