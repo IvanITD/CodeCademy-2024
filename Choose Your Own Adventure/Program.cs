@@ -28,12 +28,17 @@ namespace Choose_Your_Own_Adventure
             // Here I made a little tweak, in case the user desides to use lower case letters. This function is going to, automaticaly change the letters to upper case!
             string upperNoiseChoice = noiseChoice.ToUpper(); // => UPPER CASE LETTER
 
+            // Decided to add a little change to the code! Rather than keeping the new string variable, I decided that I'm going to keep it simple and return it to the old variable, with a slight change!
+            // I've marked each similar change with => *x => (x) for number
+            // *1
+            noiseChoice = upperNoiseChoice;
+
             // Here I added an if-else statement in order the user to have more options, after the YES or NO answer!
-            if (upperNoiseChoice == "NO")
+            if (noiseChoice == "NO")
             {
                 Console.WriteLine("Not much of an adventure if we don't leave our room! \nTHE END.");
             }
-            else if (upperNoiseChoice == "YES") // Here we wrote an else if statement to have a second option if the user chooses to answer YES
+            else if (noiseChoice == "YES") // Here we wrote an else if statement to have a second option if the user chooses to answer YES
             {
                 // Added some more story to the game in order for the user to be able to continue!
                 Console.WriteLine("You walk into the hallway and see a light coming from under a door down the hall. \nYou walk towards it. Do you open it or knock?");
@@ -43,6 +48,9 @@ namespace Choose_Your_Own_Adventure
                 Console.Write("Type OPEN or KNOCK: ");
                 string doorChoice = Console.ReadLine();
                 string upperDoorChoice = doorChoice.ToUpper(); // => UPPER CASE LETTER
+
+                //*2
+                doorChoice = upperDoorChoice;
 
                 // Now we wrote and if/if-else statement in order to give multiple answers to the user's answer choice!
                 if (upperDoorChoice == "KNOCK")
@@ -59,6 +67,9 @@ namespace Choose_Your_Own_Adventure
 
                     // Added this code so that when the user types the write answer, so that it prints with upper case letters!
                     string upperRiddleAnswer = riddleAnswer.ToUpper();  // => UPPER CASE LETTER 
+
+                    //*3
+                    riddleAnswer = upperRiddleAnswer;
 
                     // The right answer to this question is "NOTHING", and now an if-else statement is going to make that work corectly
                     if (upperRiddleAnswer == "NOTHING")
@@ -81,6 +92,9 @@ namespace Choose_Your_Own_Adventure
                     Console.Write("Enter a number (1-3): ");
                     string keyChoice = Console.ReadLine();
                     string upperKeyChoice = keyChoice.ToUpper(); // => UPPER CASE LETTER 
+
+                    //*4
+                    keyChoice = upperKeyChoice;
                 }
 
 
