@@ -85,7 +85,7 @@ namespace Choose_Your_Own_Adventure
                 else if (upperDoorChoice == "OPEN")
                 {
                     // Now we have to check IF the condition is true, then we need to print the written text to the user!
-                    Console.WriteLine("The door is locked! See if one of you three keys will open it.");
+                    Console.WriteLine("The door is locked! See if one of your three keys will open it.");
 
                     // Here we aks the user for a number that represents the key he wants to use
                     // We also made sure that the data saved in the string variable keyChoice is always with upper case letters!
@@ -99,13 +99,18 @@ namespace Choose_Your_Own_Adventure
                     // Now we've written a switch-case statement that checks if the surten value is equal to either of the "1", "2" or "3"!
                     switch (keyChoice)
                     {
+                        // Now that the cases are written, we can write the text ment to be printed!
                         case "1":
+                            Console.WriteLine("You choose the first key. Lucky choice! " +
+                                "\nThe door opens and NOTHING is there. Strange... \nTHE END.");
                             break;
 
                         case "2":
+                            Console.WriteLine("You choose the second key. The door doesn't open. \nTHE END.");
                             break;
 
                         case "3":
+                            Console.WriteLine("You choose the third key. The door doesn't open. \nTHE END.");
                             break;
                     }
 
