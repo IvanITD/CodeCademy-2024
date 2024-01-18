@@ -95,15 +95,26 @@ namespace Choose_Your_Own_Adventure
 
                     //*4
                     keyChoice = upperKeyChoice;
+
+                    // Now we've written a switch-case statement that checks if the surten value is equal to either of the "1", "2" or "3"!
+                    switch (keyChoice)
+                    {
+                        case "1":
+                            break;
+
+                        case "2":
+                            break;
+
+                        case "3":
+                            break;
+                    }
+
+
+
                 }
 
 
-
-
             }
-
-
-
 
 
         }
