@@ -7,18 +7,25 @@
             // Here I need to get the length and width of the rectangle and return the area!
             double length = double.Parse(Console.ReadLine());
             double width = double.Parse(Console.ReadLine());
+
             // Here I get the rectangle area!
             double rectangleArea = Rectangle(length, width);
+
             // Here I need to get the radius of the circle and return the area!
             double radius = double.Parse(Console.ReadLine());
+
             // Here I get the circle area!
             double circleArea = Circle(radius);
+
             // Here I need to get the bottom and height of the triangle and return the area!
             double bottom = double.Parse(Console.ReadLine());
             double height = double.Parse(Console.ReadLine());
+
             // Here I get the triangle area!
             double triangleArea = Triangle(bottom, height);
-            Console.WriteLine($"Rectangle area: {rectangleArea}\nCircle area: {circleArea}\nTriangle area: {triangleArea}");
+
+            // Here I print the area results of the different shapes!
+            Console.WriteLine($"Rectangle area: {rectangleArea}\nCircle area: {circleArea}\nTriangle area: {triangleArea}");    // This code will be deleted later on, because it's not part of the task! 
         }
         static double Rectangle(double length, double width)
         {
