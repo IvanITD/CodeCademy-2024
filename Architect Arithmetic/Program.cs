@@ -24,8 +24,11 @@
             // Here I get the triangle area!
             double triangleArea = Triangle(bottom, height);
 
-            // Here I print the area results of the different shapes!
-            Console.WriteLine($"Rectangle area: {rectangleArea}\nCircle area: {circleArea}\nTriangle area: {triangleArea}");    // This code will be deleted later on, because it's not part of the task! 
+            
+            // After we separate the floor plan on a paper, we need to get the result from every shape's area, and then add them together!
+            //The total result should be saved in a double varibale, because in this project, we are instructed to work only with the variable double!
+            double totalShapeArea = rectangleArea + triangleArea + (circleArea / 2);
+            
         }
         static double Rectangle(double length, double width)
         {
