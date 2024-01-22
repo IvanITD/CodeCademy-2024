@@ -36,7 +36,8 @@
             double totalCost = totalShapeArea * flooringMaterialPrice;
 
             // And now we need to print the result!
-            Console.WriteLine($"The total cost for the flooring material is: {totalCost:f2} pesos!");
+            Console.WriteLine($"The total cost for the flooring material is: {Math.Round(totalCost)} pesos!"); 
+            // The next step is to round the result to the nearest integer!
             
         }
         static double Rectangle(double length, double width)
@@ -60,5 +61,6 @@
             // Here we return the calculated area,of the triangle, back to the main method!
             return area;
         }
+        
     }
 }
