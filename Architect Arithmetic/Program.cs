@@ -5,21 +5,21 @@
         static void Main(string[] args)
         {
             // Here I need to get the length and width of the rectangle and return the area!
-            double length = double.Parse(Console.ReadLine());
-            double width = double.Parse(Console.ReadLine());
+            double length = 4;
+            double width = 5;
 
             // Here I get the rectangle area!
             double rectangleArea = Rectangle(length, width);
 
             // Here I need to get the radius of the circle and return the area!
-            double radius = double.Parse(Console.ReadLine());
+            double radius = 4;
 
             // Here I get the circle area!
             double circleArea = Circle(radius);
 
             // Here I need to get the bottom and height of the triangle and return the area!
-            double bottom = double.Parse(Console.ReadLine());
-            double height = double.Parse(Console.ReadLine());
+            double bottom = 10;
+            double height = 9;
 
             // Here I get the triangle area!
             double triangleArea = Triangle(bottom, height);
