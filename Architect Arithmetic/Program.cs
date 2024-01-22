@@ -36,7 +36,7 @@
             double totalCost = totalShapeArea * flooringMaterialPrice;
 
             // And now we need to print the result!
-            Console.WriteLine($"The total cost for the flooring material is: {totalCost:f2}");
+            Console.WriteLine($"The total cost for the flooring material is: {totalCost:f2} pesos!");
             
         }
         static double Rectangle(double length, double width)
