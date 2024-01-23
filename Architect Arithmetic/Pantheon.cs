@@ -2,6 +2,8 @@
 {
     internal class Program
     {
+
+        //In this section we will write a program that gives the total cost of the flooring material for the "Pantheon", in Rome, Italy.
         static void Main(string[] args)
         {
             // Here I need to get the length and width of the rectangle and return the area!
