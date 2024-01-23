@@ -26,7 +26,7 @@
 
             
             // After we separate the floor plan on a paper, we need to get the result from every shape's area, and then add them together!
-            //The total result should be saved in a double varibale, because in this project, we are instructed to work only with the variable double!
+            //The total result should be saved in a double variable, because in this project, we are instructed to work only with the variable double!
             double totalShapeArea = rectangleArea + triangleArea + (circleArea / 2);
 
             // Now in order to do the next step, we need to write the flooring price!
