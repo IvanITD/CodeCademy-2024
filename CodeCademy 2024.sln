@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Choose Your Own Adventure",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architect Arithmetic - Pantheon", "Architect Arithmetic - Pantheon\Architect Arithmetic - Pantheon.csproj", "{8AE89DE9-48BC-47D9-94C7-4DBC0321B16E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architect Arithmetic - PatheonWithOneMethod", "Architect Arithmetic - PatheonWithOneMethod\Architect Arithmetic - PatheonWithOneMethod.csproj", "{DE6AC9C4-FA57-4E43-A346-4A0B092E5CDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{8AE89DE9-48BC-47D9-94C7-4DBC0321B16E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AE89DE9-48BC-47D9-94C7-4DBC0321B16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AE89DE9-48BC-47D9-94C7-4DBC0321B16E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE6AC9C4-FA57-4E43-A346-4A0B092E5CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE6AC9C4-FA57-4E43-A346-4A0B092E5CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE6AC9C4-FA57-4E43-A346-4A0B092E5CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE6AC9C4-FA57-4E43-A346-4A0B092E5CDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
