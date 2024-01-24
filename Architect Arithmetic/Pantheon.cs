@@ -1,4 +1,4 @@
-﻿namespace Architect_Arithmetic1a
+namespace Architect_Arithmetic
 {
     internal class Program
     {
