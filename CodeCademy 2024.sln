@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Password Checker", "Passwor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Choose Your Own Adventure", "Choose Your Own Adventure\Choose Your Own Adventure.csproj", "{36824997-8AC8-4750-BC33-2643A58FB362}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architect Arithmetic", "Architect Arithmetic\Architect Arithmetic.csproj", "{DDE78672-EFEE-4E6E-A4C8-69167B89AB83}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architect Arithmetic - Pantheon", "Architect Arithmetic - Pantheon\Architect Arithmetic - Pantheon.csproj", "{3738DD52-B0DE-4C87-BD3E-576C4235662B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{36824997-8AC8-4750-BC33-2643A58FB362}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36824997-8AC8-4750-BC33-2643A58FB362}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36824997-8AC8-4750-BC33-2643A58FB362}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DDE78672-EFEE-4E6E-A4C8-69167B89AB83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DDE78672-EFEE-4E6E-A4C8-69167B89AB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DDE78672-EFEE-4E6E-A4C8-69167B89AB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DDE78672-EFEE-4E6E-A4C8-69167B89AB83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3738DD52-B0DE-4C87-BD3E-576C4235662B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3738DD52-B0DE-4C87-BD3E-576C4235662B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3738DD52-B0DE-4C87-BD3E-576C4235662B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3738DD52-B0DE-4C87-BD3E-576C4235662B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
