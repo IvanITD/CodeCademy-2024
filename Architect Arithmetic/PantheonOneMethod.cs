@@ -1,8 +1,6 @@
-using System.ComponentModel.DataAnnotations;
-
 namespace Architect_Arithmetic1b
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
