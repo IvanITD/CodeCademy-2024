@@ -6,16 +6,15 @@ namespace Architect_Arithmetic1b
     {
         static void Main(string[] args)
         {
-            
-
+            CalculateTotalCost();
         }
 
-        static double CalculateTotalCost(
+        static void CalculateTotalCost(
             double length = 4,
             double width = 5,
             double radius = 4,
             double bottom = 10,
-            double height = 9 // I need to finish adding the variables
+            double height = 9
         )
         {
             double rectangleArea = length * width;
