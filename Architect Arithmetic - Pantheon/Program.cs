@@ -1,4 +1,4 @@
-﻿namespace Architect_Arithmetic
+﻿namespace Architect_Arithmetic_Pantheon
 {
     internal class Program
     {
@@ -7,29 +7,22 @@
         static void Main(string[] args)
         {
             // Here I need to get the length and width of the rectangle and return the area!
-            double length = 4;
-            double width = 5;
+            double length = 15;
+            double width = 18;
 
-            // Here I get the rectangle area!
+            // Here I get the rectangle area back from the method!
             double rectangleArea = Rectangle(length, width);
 
             // Here I need to get the radius of the circle and return the area!
-            double radius = 4;
+            double radius = 21.5;
 
             // Here I get the circle area!
             double circleArea = Circle(radius);
 
-            // Here I need to get the bottom and height of the triangle and return the area!
-            double bottom = 10;
-            double height = 9;
 
-            // Here I get the triangle area!
-            double triangleArea = Triangle(bottom, height);
-
-            
             // After we separate the floor plan on a paper, we need to get the result from every shape's area, and then add them together!
             //The total result should be saved in a double variable, because in this project, we are instructed to work only with the variable double!
-            double totalShapeArea = rectangleArea + triangleArea + (circleArea / 2);
+            double totalShapeArea = rectangleArea + (circleArea / 2);
 
             // Now in order to do the next step, we need to write the flooring price!
             double flooringMaterialPrice = 180;
@@ -38,7 +31,7 @@
             double totalCost = totalShapeArea * flooringMaterialPrice;
 
             // And now we need to print the result!
-            Console.WriteLine($"The total cost for the flooring material is: {Math.Round(totalCost)} pesos!"); 
+            Console.WriteLine($"The total cost for the flooring material, for the Pantheon, is: {Math.Round(totalCost)} euro!"); 
             // The next step is to round the result to the nearest integer!
             
         }
@@ -56,13 +49,7 @@
             // Here we return the calculated area, of the circle, back to the main method!
             return area;
         }
-        static double Triangle(double bottom, double height)
-        {
-            // Here we calculate the area of the triangle!
-            double area = 0.5 * bottom * height;
-            // Here we return the calculated area,of the triangle, back to the main method!
-            return area;
-        }
+        
         
     }
 }
