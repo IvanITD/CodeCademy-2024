@@ -6,28 +6,26 @@ namespace Architect_Arithmetic1b
     {
         static void Main(string[] args)
         {
-            // Rectangle Area
-            double length = 4;
-            double width = 5;
-
-            // Circle Area
-            double radius = 4;
-
-            // Triangle Area
-            double bottom = 10;
-            double height = 9;
+            
 
         }
 
-        static void CalculateTotalCost(
-            double length,
-            double width,
-            double radius,
-            double bottom,
-            double height, // I need to finish adding the variables
+        static double CalculateTotalCost(
+            double length = 4,
+            double width = 5,
+            double radius = 4,
+            double bottom = 10,
+            double height = 9 // I need to finish adding the variables
         )
         {
-            double rectangleArea = length * width; 
+            double rectangleArea = length * width;
+            double circleArea = radius * radius * Math.PI;
+            double triangleArea = 0.5 * bottom * height;
+
+            double totalShapeArea = rectangleArea + triangleArea + (circleArea / 2);
+            double flooringMaterialPrice = 180;
+            double totalCost = totalShapeArea * flooringMaterialPrice;
+            Console.WriteLine($"The total cost for the flooring material is: {Math.Round(totalCost)} pesos!");
         }
     }
 }
