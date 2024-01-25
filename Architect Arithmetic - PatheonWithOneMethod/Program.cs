@@ -19,7 +19,7 @@
             double totalShapeArea = rectangleArea + (circleArea / 2);
             double flooringMaterialPrice = 180;
             double totalCost = totalShapeArea * flooringMaterialPrice;
-            Console.WriteLine($"The total cost for the flooring material, for the Pantheon is: {Math.Round(totalCost)} euro!");
+            Console.WriteLine($"The total cost for the flooring material, for the Pantheon is: {Math.Round(totalCost):F2} euro!");
         }
     }
 }

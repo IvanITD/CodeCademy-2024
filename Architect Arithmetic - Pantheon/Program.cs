@@ -31,7 +31,7 @@
             double totalCost = totalShapeArea * flooringMaterialPrice;
 
             // And now we need to print the result!
-            Console.WriteLine($"The total cost for the flooring material, for the Pantheon, is: {Math.Round(totalCost)} euro!"); 
+            Console.WriteLine($"The total cost for the flooring material, for the Pantheon, is: {Math.Round(totalCost):F2} euro!"); 
             // The next step is to round the result to the nearest integer!
             
         }

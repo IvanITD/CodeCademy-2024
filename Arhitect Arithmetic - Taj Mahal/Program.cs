@@ -32,7 +32,7 @@ namespace Arhitect_Arithmetic_Taj_Mahal
             double totalCost = totalShapeArea * flooringMaterialPrice;
 
             // And now we need to print the result!
-            Console.WriteLine($"The total cost of the flooring material for the Taj Mahal is {Math.Round(totalCost)} rupee!");
+            Console.WriteLine($"The total cost of the flooring material for the Taj Mahal is {Math.Round(totalCost):F2} rupee!");
         }
 
         static double Rectangle(double length, double width)

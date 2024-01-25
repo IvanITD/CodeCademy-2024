@@ -36,7 +36,7 @@
             double totalCost = totalShapeArea * floorMaterialPricing;
 
             // And now we need to print the result!
-            Console.WriteLine($"The total cost for the flooring material, for the Great Mosque of Mecca is: {Math.Round(totalCost)} riyal!");
+            Console.WriteLine($"The total cost for the flooring material, for the Great Mosque of Mecca is: {Math.Round(totalCost):F2} riyal!");
             // The next step is to round the result to the nearest integer!
         }
 
