@@ -15,14 +15,14 @@
         )
         {
             double rectangleArea = length * width;
-            double triangleArea = bottom * height; 
+            double triangleArea = 0.5 * bottom * height; 
             triangleArea *= 4;
 
             double flooringMaterialCost = 180;
             
             double totalShapeArea = rectangleArea + triangleArea;
             double totalCost = totalShapeArea * flooringMaterialCost;
-            Console.WriteLine($"The total cost of the flooring material for the Taj Mahal is {totalCost} rupee!");
+            Console.WriteLine($"The total cost of the flooring material for the Taj Mahal is {Math.Round(totalCost)} rupee!");
 
         }
     

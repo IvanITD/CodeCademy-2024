@@ -32,7 +32,7 @@ namespace Arhitect_Arithmetic_Taj_Mahal
             double totalCost = totalShapeArea * flooringMaterialPrice;
 
             // And now we need to print the result!
-            Console.WriteLine($"The total cost of the flooring material for the Taj Mahal is {totalCost} rupee!");
+            Console.WriteLine($"The total cost of the flooring material for the Taj Mahal is {Math.Round(totalCost)} rupee!");
         }
 
         static double Rectangle(double length, double width)
@@ -48,7 +48,7 @@ namespace Arhitect_Arithmetic_Taj_Mahal
         static double Triangle(double bottom, double height)
         {
             // Here we calculate the area of the triangle!
-            double area = bottom * height;
+            double area = 0.5 * bottom * height;
 
             // In order to get the right amount of triangles we need to multiply the area by 4, because the triangles are 4 in total!
             area *= 4;
