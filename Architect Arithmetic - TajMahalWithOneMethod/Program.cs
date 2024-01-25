@@ -20,7 +20,7 @@
 
             double flooringMaterialCost = 180;
             
-            double totalShapeArea = rectangleArea + triangleArea;
+            double totalShapeArea = rectangleArea - triangleArea;
             double totalCost = totalShapeArea * flooringMaterialCost;
             Console.WriteLine($"The total cost of the flooring material for the Taj Mahal is {Math.Round(totalCost):F2} rupee!");
 

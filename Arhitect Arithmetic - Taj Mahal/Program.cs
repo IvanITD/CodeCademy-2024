@@ -23,7 +23,7 @@ namespace Arhitect_Arithmetic_Taj_Mahal
 
             // After we separate the floor plan on a paper, we need to get the result from every shape's area, and add them back together!
             // The total result should be saved in a double variable, because in this project, we are instructed to work only with the variable double!
-            double totalShapeArea = rectangleArea + triangleArea;
+            double totalShapeArea = rectangleArea - triangleArea;
 
             // Now in order to do the next step, we need to write the flooring price!
             double flooringMaterialPrice = 180;

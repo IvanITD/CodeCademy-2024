@@ -20,7 +20,7 @@
                 double area2 = length2 * width2;
                 double area = 0.5 * bottom * height;
 
-                double totalShapeArea = area1 + area2 + area;
+                double totalShapeArea = area1 + area2 - area;
 
                 double flooringPrice = 180;
 

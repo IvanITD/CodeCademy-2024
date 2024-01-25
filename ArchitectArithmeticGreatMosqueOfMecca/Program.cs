@@ -27,7 +27,7 @@
             double triangleArea = Triangle(bottom, height);
             
             // Now we need to get the total shape area!
-            double totalShapeArea = firstRectangleArea + secondRectangleArea + triangleArea;
+            double totalShapeArea = firstRectangleArea + secondRectangleArea - triangleArea;
 
             // Here we get the floor material pricing
             double floorMaterialPricing = 180;
