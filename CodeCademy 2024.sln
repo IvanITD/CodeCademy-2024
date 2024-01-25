@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architect Arithmetic - Path
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arhitect Arithmetic - Taj Mahal", "Arhitect Arithmetic - Taj Mahal\Arhitect Arithmetic - Taj Mahal.csproj", "{E0E77111-1CC1-4A01-A602-7CBBBC2E261C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architect Arithmetic - TajMahalWithOneMethod", "Architect Arithmetic - TajMahalWithOneMethod\Architect Arithmetic - TajMahalWithOneMethod.csproj", "{0200A84C-59EE-4636-B4F6-D032DC6DE0F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{E0E77111-1CC1-4A01-A602-7CBBBC2E261C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0E77111-1CC1-4A01-A602-7CBBBC2E261C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0E77111-1CC1-4A01-A602-7CBBBC2E261C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0200A84C-59EE-4636-B4F6-D032DC6DE0F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0200A84C-59EE-4636-B4F6-D032DC6DE0F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0200A84C-59EE-4636-B4F6-D032DC6DE0F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0200A84C-59EE-4636-B4F6-D032DC6DE0F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
