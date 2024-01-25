@@ -7,8 +7,9 @@ namespace ArchitectArithmeticWholeProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"What monument would you like to work with? \nYou have the following options:");
-            Console.WriteLine($"Pantheon\nTeotihuacan\nTaj Mahal\nGreat Mosque of Mecca");
+            Console.WriteLine($"What monument would you like to work with? \nYou have the following options:\n");
+            Console.WriteLine($"1) Pantheon\n2) Teotihuacan\n3) Taj Mahal\n4) Great Mosque of Mecca");
+            Console.WriteLine();
             Console.WriteLine($"Pick the one you like!");
             string flooringPlan = Console.ReadLine();
 
@@ -50,7 +51,7 @@ namespace ArchitectArithmeticWholeProject
 
             return totalCost;
         }
-        
+
         static double Teotihuacan(
             double length = 2500,
             double width = 1500,
