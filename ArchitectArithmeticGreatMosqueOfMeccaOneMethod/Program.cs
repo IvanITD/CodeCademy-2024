@@ -10,8 +10,8 @@
         static void CalculateTotalCost(
             double length1 = 284,
             double width1 = 264,
-            double length2 = 106,
-            double width2 = 180,
+            double length2 = 180,
+            double width2 = 106,
             double bottom = 264,
             double height = 84
             )

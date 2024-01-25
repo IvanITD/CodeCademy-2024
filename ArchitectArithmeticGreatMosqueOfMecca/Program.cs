@@ -13,8 +13,8 @@
             double firstRectangleArea = FirstRectangle(length1, width1);
 
             // Here I need to get the length and width of the second rectangle and return the area!
-            double length2 = 106;
-            double width2 = 180;
+            double length2 = 180;
+            double width2 = 106;
 
             // Here I get the second rectangle area back from the method!
             double secondRectangleArea = SecondRectangle(length2, width2);

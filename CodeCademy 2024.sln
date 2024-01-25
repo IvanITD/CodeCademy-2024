@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchitectArithmeticTeotihua
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchitectArithmeticTeotihuacanOneMethod", "ArchitectArithmeticTeotihuacanOneMethod\ArchitectArithmeticTeotihuacanOneMethod.csproj", "{4848C204-4E99-4D33-AC2F-762678DD5DE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchitectArithmeticWholeProject", "ArchitectArithmeticWholeProject\ArchitectArithmeticWholeProject.csproj", "{E4712E55-7FB5-4EC5-92CC-BC4E94D71996}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{4848C204-4E99-4D33-AC2F-762678DD5DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4848C204-4E99-4D33-AC2F-762678DD5DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4848C204-4E99-4D33-AC2F-762678DD5DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4712E55-7FB5-4EC5-92CC-BC4E94D71996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4712E55-7FB5-4EC5-92CC-BC4E94D71996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4712E55-7FB5-4EC5-92CC-BC4E94D71996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4712E55-7FB5-4EC5-92CC-BC4E94D71996}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
