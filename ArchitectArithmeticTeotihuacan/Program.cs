@@ -30,7 +30,7 @@
             double totalCost = totalShapeArea * flooringPrice;
 
             // Now we print the total cost of the Teotihuacan to the console and inform the user!
-            Console.WriteLine($"The total cost for the flooring material, for the Teotihuacan is {Math.Round(totalCost):F2} pesos!");
+            Console.WriteLine($"The total cost for the flooring material, for the Teotihuacan is: {Math.Round(totalCost):F2} pesos!");
             // Here also added the Math.Round in order to get the result to the nearest integer and also get two zeros after the fullstop dot!
         }
 
