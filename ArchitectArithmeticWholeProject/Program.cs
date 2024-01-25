@@ -50,6 +50,7 @@ namespace ArchitectArithmeticWholeProject
 
             return totalCost;
         }
+        
         static double Teotihuacan(
             double length = 2500,
             double width = 1500,
@@ -87,6 +88,7 @@ namespace ArchitectArithmeticWholeProject
 
             return totalCost;
         }
+
         static double GreatMosqueOfMecca(
             double length1 = 284,
             double width1 = 264,
