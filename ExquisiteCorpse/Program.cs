@@ -99,6 +99,7 @@ namespace ExquisiteCorpse
 
     }
 
+    // Here we create a new method named TranslateToNumber, which is going to translate the string into a number!
     static void TranslateToNumber(string creature)
     {
       
