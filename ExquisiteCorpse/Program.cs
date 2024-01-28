@@ -17,9 +17,7 @@ namespace ExquisiteCorpse
     // Here I created a method where there is a switch case statement, in which there are going to be made different combinations of creature builds!
     static void BuildACreature(string head, string body, string feet)
     {
-      int headNum = TranslateToNumber();
-      int bodyNum = TranslateToNumber();
-      int feetNum = TranslateToNumber();
+      
     }
 
     // Here I created a separate personal method which I called RandomMode
@@ -84,31 +82,29 @@ namespace ExquisiteCorpse
     }
 
     // Here we create a new method named TranslateToNumber, which is going to translate the string into a number!
-    static void TranslateToNumber(string creature)
+    static int TranslateToNumber(string creature)
     {
-      // Here I created a new variable named firstCreature, secondCreature, and thirdCreature, which are going to store the numbers that are going to be used later!
-      int firstCreature;
-      int secondCreature;
-      int thirdCreature;
+      int creatureNum;
 
       switch (creature)
       {
         case "ghost":
-         firstCreature = 1;
+          creatureNum = 1;
         break;
 
         case "bug":
-         secondCreature = 2;
+          creatureNum = 2;
         break;
 
         case "monster":
-         thirdCreature = 3;
+          creatureNum = 3;
         break;
 
         default:
-         firstCreature = 1;
+          creatureNum = 1;
         break;
       }
+      return creatureNum;
     }
 
     // This written code is the the creature's parts, which are written in separated methods in order those methods to be used later!
