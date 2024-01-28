@@ -17,7 +17,9 @@ namespace ExquisiteCorpse
     // Here I created a method where there is a switch case statement, in which there are going to be made different combinations of creature builds!
     static void BuildACreature(string head, string body, string feet)
     {
-      
+      int headNum = TranslateToNumber();
+      int bodyNum = TranslateToNumber();
+      int feetNum = TranslateToNumber();
     }
 
     // Here I created a separate personal method which I called RandomMode
