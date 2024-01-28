@@ -8,7 +8,7 @@ namespace ExquisiteCorpse
   {
     static void Main(string[] args)
     {
-      RandomMode(); // The last one is a random one, and it kinda looks like a Hawaii female dancer!
+      RandomMode(); // This is the RandomMode method, with which I created a random creature!
     }
 
     // Here I created a method where there is a switch case statement, in which there are going to be made different combinations of creature builds!
