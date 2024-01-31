@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchitectArithmeticWholePro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExquisiteCorpse", "ExquisiteCorpse\ExquisiteCorpse.csproj", "{629D81A5-4956-4A11-B4E3-03BB30050AC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExquisiteCorpse-RandomBodyPart", "ExquisiteCorpse-RandomBodyPart\ExquisiteCorpse-RandomBodyPart.csproj", "{96DA1D42-8DCC-4F48-8297-B87BE5C9F577}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{629D81A5-4956-4A11-B4E3-03BB30050AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{629D81A5-4956-4A11-B4E3-03BB30050AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{629D81A5-4956-4A11-B4E3-03BB30050AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96DA1D42-8DCC-4F48-8297-B87BE5C9F577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DA1D42-8DCC-4F48-8297-B87BE5C9F577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DA1D42-8DCC-4F48-8297-B87BE5C9F577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DA1D42-8DCC-4F48-8297-B87BE5C9F577}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
