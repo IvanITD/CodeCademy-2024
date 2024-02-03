@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Linq.Expressions;
 
 namespace ExquisiteCorpse_ASCIIArt
@@ -21,9 +22,9 @@ namespace ExquisiteCorpse_ASCIIArt
             Console.WriteLine("2. Manual Creature Mode");
             Console.WriteLine("Enter your choice (1 or 2):");
 
-            string choice = Console.ReadLine();
+            string creatureChoice = Console.ReadLine();
 
-            switch (choice)
+            switch (creatureChoice)
             {
                 case "1":
                 RandomModeCreature();
@@ -34,7 +35,7 @@ namespace ExquisiteCorpse_ASCIIArt
                 break;
 
                 default:
-                Console.WriteLine("Invalid choice. Exiting program.");
+                Console.WriteLine("Invalid creature choice. Exiting program.");
                 break;
             }
             // This is were the first part of the game ends!
@@ -87,6 +88,32 @@ namespace ExquisiteCorpse_ASCIIArt
                 Console.ReadKey();
 
                 // Just like before we will add the same optional functions, manual or random!
+                Console.WriteLine("Now just like before, select a mode:");
+                Console.WriteLine("Press any key to continue...");
+                Console.ReadKey();
+
+                Console.WriteLine();
+                Console.WriteLine("1. Random Animal Mode");
+                Console.WriteLine("2. Manual Animal Mode");
+
+                // Just like before we are going to save the string variable of the user's choice in a string variable named animalChoice!
+                string animalChoice = Console.ReadLine();
+
+                switch (animalChoice)
+            {
+                case "1":
+                RandomModeAnimal();
+                break;
+
+                case "2":
+                ManualModeAnimal();
+                break;
+
+                default:
+                Console.WriteLine("Invalid animal choice. Exiting program.");
+                break;
+            }
+            // This is were the second part of the game ends!
 
             }
             else if (usersAnswer == "No" || usersAnswer == "NO" || usersAnswer == "no" || usersAnswer == "n" || usersAnswer == "N")
@@ -125,8 +152,6 @@ namespace ExquisiteCorpse_ASCIIArt
             int head = randomNumber.Next(1, 4);
             int body = randomNumber.Next(1, 4);
             int feet = randomNumber.Next(1, 4);
-
-            Console.WriteLine($"Random Mode: Head: {head}, Body: {body}, Feet: {feet}");
             
             SwitchCaseRandomCreature(head.ToString(), body.ToString(), feet.ToString());
         }
@@ -165,7 +190,7 @@ namespace ExquisiteCorpse_ASCIIArt
                 break;
 
                 default:
-                Console.WriteLine("Invalid head choice.");
+                Console.WriteLine("Invalid creature head choice.");
                 return;
             }
 
@@ -184,7 +209,7 @@ namespace ExquisiteCorpse_ASCIIArt
                 break;
 
                 default:
-                Console.WriteLine("Invalid body choice.");
+                Console.WriteLine("Invalid creature body choice.");
                 return;
             }
 
@@ -203,7 +228,7 @@ namespace ExquisiteCorpse_ASCIIArt
                 break;
 
                 default:
-                Console.WriteLine("Invalid feet choice.");
+                Console.WriteLine("Invalid creature feet choice.");
                 return;
             }
         }
@@ -225,45 +250,57 @@ namespace ExquisiteCorpse_ASCIIArt
                 break;
 
                 default:
-                Console.WriteLine("Invalid head choice.");
+                Console.WriteLine("Invalid creature head choice.");
                 return;
             }
 
             switch (body)
             {
                 case "ghost":
+                case "GHOST":
+                case "Ghost":
                 GhostBody();
                 break;
 
                 case "bug":
+                case "BUG":
+                case "Bug":
                 BugBody();
                 break;
 
                 case "monster":
+                case "MONSTER":
+                case "Monster":
                 MonsterBody();
                 break;
 
                 default:
-                Console.WriteLine("Invalid body choice.");
+                Console.WriteLine("Invalid creature body choice.");
                 return;
             }
 
             switch (feet)
             {
                 case "ghost":
+                case "GHOST":
+                case "Ghost":
                 GhostFeet();
                 break;
 
                 case "bug":
+                case "BUG":
+                case "Bug":
                 BugFeet();
                 break;
 
                 case "monster":
+                case "MONSTER":
+                case "Monster":
                 MonsterFeet();
                 break;
 
                 default:
-                Console.WriteLine("Invalid feet choice.");
+                Console.WriteLine("Invalid creature feet choice.");
                 return;
             }
         }
@@ -338,6 +375,204 @@ namespace ExquisiteCorpse_ASCIIArt
         // SECOND PART OF GAME CODE!
         // Here I'll write the code for the second part of the game.
         // Firstly I have to add some methods that are going to be used in the second part of the game.
+
+        //Now we have to add both manual and random creator code process
+        static void RandomModeAnimal()
+        {
+            Random randomNumber = new Random();
+            int head = randomNumber.Next(1, 5);
+            int body = randomNumber.Next(1, 5);
+            int feet = randomNumber.Next(1, 5);
+            
+            SwitchCaseRandomAnimal(head.ToString(), body.ToString(), feet.ToString());
+        }
+
+        static void ManualModeAnimal()
+        {
+            Console.WriteLine("You've chosen Manual Creature mode!");
+            Console.WriteLine("Please enter the parts of the creature (ghost, bug, or monster) for head, body, and feet:");
+
+            Console.Write("Head: ");
+            string head = Console.ReadLine();
+
+            Console.Write("Body: ");
+            string body = Console.ReadLine();
+
+            Console.Write("Feet: ");
+            string feet = Console.ReadLine();
+
+            SwitchCaseManualAnimal(head, body, feet);
+        }
+
+        // Before the ASCII arts i'm going to write the methods that will contain the switch cases for the random and manual ASCII animal creator!
+        static void SwitchCaseRandomAnimal(string head, string body, string feet)
+        {
+            switch (head)
+            {
+                case "1":
+                DogHead();
+                break;
+
+                case"2":
+                CatHead();
+                break;
+
+                case "3":
+                FoxHead();
+                break;
+
+                case "4":
+                BunnyHead();
+                break;
+
+                default:
+                Console.WriteLine("Invalid animal head choice.");
+                return;
+            }
+
+            switch (body)
+            {
+                case "1":
+                DogBody();
+                break;
+
+                case "2":
+                CatBody();
+                break;
+
+                case "3":
+                FoxBody();
+                break;
+
+                case "4":
+                BunnyBody();
+                break;
+
+                default:
+                Console.WriteLine("Invalid animal body choice.");
+                return;
+            }
+
+            switch (feet)
+            {
+                case "1":
+                DogFeet();
+                break;
+
+                case "2":
+                CatFeet();
+                break;
+
+                case "3":
+                FoxFeet();
+                break;
+
+                case "4":
+                BunnyFeet();
+                break;
+
+                default:
+                Console.WriteLine("Invalid animal feet choice.");
+                return;
+            }
+        }
+
+        // Here I will add the methods that will contain the ASCII arts for the manual animals creation!
+        static void SwitchCaseManualAnimal(string head, string body, string feet)
+        {
+            switch (head)
+            {
+                case "dog":
+                case "DOG":
+                case "Dog":
+                DogHead();
+                break;
+
+                case "cat":
+                case "CAT":
+                case "Cat":
+                CatHead();
+                break;
+
+                case "fox":
+                case "FOX":
+                case "Fox":
+                FoxHead();
+                break;
+                
+                case "bunny":
+                case "BUNNY":
+                case "Bunny":
+                BunnyHead();
+                break;
+
+                default:
+                Console.WriteLine("Invalid animal head choice.");
+                return;
+            }
+
+            switch (body)
+            {
+                case "dog":
+                case "DOG":
+                case "Dog":
+                DogBody();
+                break;
+
+                case "cat":
+                case "CAT":
+                case "Cat":
+                CatBody();
+                break;
+
+                case "fox":
+                case "FOX":
+                case "Fox":
+                FoxBody();
+                break;
+
+                case "bunny":
+                case "BUNNY":
+                case "Bunny":
+                BunnyBody();
+                break;
+
+                default:
+                Console.WriteLine("Invalid animal body choice.");
+                return;
+            }
+
+            switch (feet)
+            {
+                case "dog":
+                case "DOG":
+                case "Dog":
+                DogFeet();
+                break;
+
+                case "cat":
+                case "CAT":
+                case "Cat":
+                CatFeet();
+                break;
+
+                case "fox":
+                case "FOX":
+                case "Fox":
+                FoxFeet();
+                break;
+
+                case "bunny":
+                case "BUNNY":
+                case "Bunny":
+                BunnyFeet();
+                break;
+
+                default:
+                Console.WriteLine("Invalid animal feet choice.");
+                return;
+            }
+        }
 
         //The first ones are going to be the ones that contain the ASCII art for the different animals!
 
@@ -430,6 +665,6 @@ namespace ExquisiteCorpse_ASCIIArt
         {
             Console.WriteLine("O(_(\")(\")");
         }
-
+        
     }
 }
