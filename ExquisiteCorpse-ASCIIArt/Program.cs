@@ -26,11 +26,11 @@ namespace ExquisiteCorpse_ASCIIArt
             switch (choice)
             {
                 case "1":
-                RandomMode();
+                RandomModeCreature();
                 break;
 
                 case "2":
-                ManualMode();
+                ManualModeCreature();
                 break;
 
                 default:
@@ -76,10 +76,18 @@ namespace ExquisiteCorpse_ASCIIArt
                 Console.ReadLine();
 
                 Console.WriteLine();
-                Console.WriteLine("Welcome to Part 2 ot the game!");
-                Console.WriteLine("Believe me, you wont regret it!");
+                Console.WriteLine("Welcome to \"Exquisite Corpse and the animal maker\"");
+                Console.WriteLine("Part 2 ot the game!");
                 Console.WriteLine("Press any key to continue...");
                 Console.ReadKey();
+
+                Console.WriteLine();
+                Console.WriteLine("I hope you enjoyed the ASCII arts!\nBut don't go, I think you'll love them!");
+                Console.WriteLine("Press any key to continue...");
+                Console.ReadKey();
+
+                // Just like before we will add the same optional functions, manual or random!
+
             }
             else if (usersAnswer == "No" || usersAnswer == "NO" || usersAnswer == "no" || usersAnswer == "n" || usersAnswer == "N")
             {
@@ -111,7 +119,7 @@ namespace ExquisiteCorpse_ASCIIArt
             }
         }
 
-        static void RandomMode()
+        static void RandomModeCreature()
         {
             Random randomNumber = new Random();
             int head = randomNumber.Next(1, 4);
@@ -120,10 +128,10 @@ namespace ExquisiteCorpse_ASCIIArt
 
             Console.WriteLine($"Random Mode: Head: {head}, Body: {body}, Feet: {feet}");
             
-            SwitchCaseRandom(head.ToString(), body.ToString(), feet.ToString());
+            SwitchCaseRandomCreature(head.ToString(), body.ToString(), feet.ToString());
         }
 
-        static void ManualMode()
+        static void ManualModeCreature()
         {
             Console.WriteLine("You've chosen Manual Creature mode!");
             Console.WriteLine("Please enter the parts of the creature (ghost, bug, or monster) for head, body, and feet:");
@@ -137,10 +145,10 @@ namespace ExquisiteCorpse_ASCIIArt
             Console.Write("Feet: ");
             string feet = Console.ReadLine();
 
-            SwitchCaseManual(head, body, feet);
+            SwitchCaseManualCreature(head, body, feet);
         }
 
-        static void SwitchCaseRandom(string head, string body, string feet)
+        static void SwitchCaseRandomCreature(string head, string body, string feet)
         {
             switch (head)
             {
@@ -200,7 +208,7 @@ namespace ExquisiteCorpse_ASCIIArt
             }
         }
 
-        static void SwitchCaseManual(string head, string body, string feet)
+        static void SwitchCaseManualCreature(string head, string body, string feet)
         {
             switch (head)
             {
@@ -322,5 +330,16 @@ namespace ExquisiteCorpse_ASCIIArt
             Console.WriteLine("   /   |   \\");
             Console.WriteLine("   \"\"\"\" \"\"\"\"");
         }
+
+
+
+
+
+        // SECOND PART OF GAME CODE!
+        // Here I'll write the code for the second part of the game.
+        // Firstly I have to add some methods that are going to be used in the second part of the game.
+
+        //The first ones are going to be the ones that contain the ASCII art for the different animals!
+
     }
 }
