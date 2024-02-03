@@ -341,5 +341,95 @@ namespace ExquisiteCorpse_ASCIIArt
 
         //The first ones are going to be the ones that contain the ASCII art for the different animals!
 
+        //Let's start with the Dog's Head!
+        static void DogHead()
+        {
+            Console.WriteLine("(/(>*<)\\)");
+        }
+
+        //Now the Dog's Body!
+        static void DogBody()
+        {
+            Console.WriteLine("   ___");
+        }
+
+        // And now the Dog's Feet!
+        static void DogFeet()
+        {
+            Console.WriteLine("  /   \\");
+        }
+
+
+        // Now it's time for the Cat!
+
+        // Let's start with the Cat's Head!
+        static void CatHead()
+        {
+            Console.WriteLine(" /\\_/\\");
+            Console.WriteLine("( o.o )");
+        }
+
+        //Now the Cat's Body!
+        static void CatBody()
+        {
+            Console.WriteLine(" > ^ <");
+		    Console.WriteLine("(u . u)");
+        }
+
+        // And now the Cat's Feet!
+        static void CatFeet()
+        {
+            Console.WriteLine("( (.) )");
+    		Console.WriteLine("(U   U)");
+            
+        }
+
+
+        // Now it's time for the Fox!
+
+        // Let's start with the Fox's Head!
+        static void FoxHead()
+        {
+        Console.WriteLine("(\\___/)");
+        Console.WriteLine("(=^.^=)");
+        }
+
+        // Now the Fox's Body!
+        static void FoxBody()
+        {
+            Console.WriteLine(" > w <");
+            Console.WriteLine("(o   o)");
+        }
+
+        // And now the Fox's Feet!
+        static void FoxFeet()
+        {
+            Console.WriteLine("( ( ) )");
+            Console.WriteLine("(O   O)");
+        }
+
+
+        // Now it's time for the Bunny!
+
+        // Let's start with the Bunny's Head!
+        static void BunnyHead()
+        {
+            Console.WriteLine(" (\\(\\");
+		    Console.WriteLine(" (-.-)");
+
+        }
+
+        // Now the Bunny's Body!
+        static void BunnyBody()
+        {
+            Console.WriteLine(" (u><u)");
+        }
+
+        // And now the Bunny's Feet!
+        static void BunnyFeet()
+        {
+            Console.WriteLine("O(_(\")(\")");
+        }
+
     }
 }
