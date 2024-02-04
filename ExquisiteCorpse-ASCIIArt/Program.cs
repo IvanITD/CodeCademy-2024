@@ -24,20 +24,20 @@ namespace ExquisiteCorpse_ASCIIArt
 
             string creatureChoice = Console.ReadLine();
 
-            switch (creatureChoice)
+            if (creatureChoice == "1")
             {
-                case "1":
-                RandomModeCreature();
-                break;
-
-                case "2":
-                ManualModeCreature();
-                break;
-
-                default:
-                Console.WriteLine("Invalid creature choice. Exiting program.");
-                break;
+                RandomModeAnimal();
+                
             }
+            else if (creatureChoice == "2")
+            {
+                ManualModeCreature();
+            }
+            else
+            {
+                Console.WriteLine("Invalid creature choice. Exiting Game...");
+            }
+           
             // This is were the first part of the game ends!
 
 
@@ -88,6 +88,7 @@ namespace ExquisiteCorpse_ASCIIArt
                 Console.ReadKey();
 
                 // Just like before we will add the same optional functions, manual or random!
+                Console.WriteLine();
                 Console.WriteLine("Now just like before, select a mode:");
                 Console.WriteLine("Press any key to continue...");
                 Console.ReadKey();
