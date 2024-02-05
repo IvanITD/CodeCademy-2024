@@ -28,10 +28,212 @@ namespace ExquisiteCorpse_ASCIIArt
             {
                 RandomModeAnimal();
                 
+                
+                // Here We start the second game!
+                Console.WriteLine();
+                Console.WriteLine("Did you like the ASCII art?");
+                Console.WriteLine("Press any key to continue...");
+                Console.ReadKey();
+                // Here I asked the user if he/she liked the ASCII art.
+                Console.WriteLine();
+                Console.WriteLine("If yes, then continue playing the game, because I have a little surprise for you!");
+                Console.WriteLine("If no, then exit the program.");
+
+                // Here I asked the user to specify his answer with yes or no!
+                Console.WriteLine("Please specify your answer with (yes or no):");
+
+                // Here I'm saving the user's answer in a string variable named userAnswer!
+                string usersAnswer = Console.ReadLine();
+
+                // Now I'm checking if the user's answer is yes or no! If it isn't either one, then I will tell him a joke question, something like "Go on then, whats your answer?".
+                if (usersAnswer == "Yes" || usersAnswer == "YES" || usersAnswer == "yes" || usersAnswer == "y" || usersAnswer == "Y")
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("GREAT!!! OMG I LOVE ASCII ART!");
+                    Console.WriteLine("Press any key to continue...");
+                    Console.ReadKey();
+
+                    Console.WriteLine();
+                    Console.WriteLine("Oops sorry I didn't mean to startle you with my excitement!");
+                    Console.WriteLine("Now let's continue playing the game!");
+                    Console.WriteLine("Press any key to continue...");
+                    Console.ReadLine();
+
+                    Console.WriteLine();
+                    Console.WriteLine("Welcome to \"Exquisite Corpse and the animal maker\"");
+                    Console.WriteLine("Part 2 ot the game!");
+                    Console.WriteLine("Press any key to continue...");
+                    Console.ReadKey();
+
+                    Console.WriteLine();
+                    Console.WriteLine("I hope you enjoyed the ASCII arts!\nBut don't go, I think you'll love them!");
+                    Console.WriteLine("Press any key to continue...");
+                    Console.ReadKey();
+
+                    // Just like before we will add the same optional functions, manual or random!
+                    Console.WriteLine();
+                    Console.WriteLine("Now just like before, select a mode:");
+                    Console.WriteLine("Press any key to continue...");
+                    Console.ReadKey();
+
+                    Console.WriteLine();
+                    Console.WriteLine("1. Random Animal Mode");
+                    Console.WriteLine("2. Manual Animal Mode");
+
+                    // Just like before we are going to save the string variable of the user's choice in a string variable named animalChoice!
+
+                    string animalChoice = Console.ReadLine();
+
+                    switch (animalChoice)
+                    {
+                        case "1":
+                        RandomModeAnimal();
+                        break;
+
+                        case "2":
+                        ManualModeAnimal();
+                        break;
+
+                        default:
+                        Console.WriteLine("Invalid animal choice. Exiting program.");
+                        break;
+                    }
+                    // This is were the second part of the game ends!
+                }
+                else if (usersAnswer == "No" || usersAnswer == "NO" || usersAnswer == "no" || usersAnswer == "n" || usersAnswer == "N")
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("Ok, then! You can exit the game!");
+
+                    Console.WriteLine();
+                    Console.WriteLine("Thanks for Playing!");
+                    Console.WriteLine("Press ESC key to exit...");
+                
+                    // Here I add the key ESC as a valid key to exit the game!
+                    ConsoleKeyInfo keyInfo;
+                    do
+                    {
+                        keyInfo = Console.ReadKey(true); // Read key without displaying it on the console.
+                    
+                        if (keyInfo.Key == ConsoleKey.Escape) // Check if the pressed key is the ESC key.
+                        {
+                        
+                            Console.WriteLine("Exiting! Thanks for Playing!");
+                            break;
+                        }
+                        else
+                        {
+                            Console.WriteLine($"In order to exit the game, press the ESC key! You pressed {keyInfo.KeyChar}.");
+                        }
+                    }
+                   while (true);
+                }
             }
             else if (creatureChoice == "2")
             {
                 ManualModeCreature();
+
+
+                // Here we start the second game!
+                Console.WriteLine();
+                Console.WriteLine("Did you like the ASCII art?");
+                Console.WriteLine("Press any key to continue...");
+                Console.ReadKey();
+                // Here I asked the user if he/she liked the ASCII art.
+                Console.WriteLine();
+                Console.WriteLine("If yes, then continue playing the game, because I have a little surprise for you!");
+                Console.WriteLine("If no, then exit the program.");
+
+
+                // Here I asked the user to specify his answer with yes or no!
+                Console.WriteLine("Please specify your answer with (yes or no):");
+
+                //Here I'm saving the user's answer in a string variable named usersAnswer!
+                string usersAnswer = Console.ReadLine();
+
+                //Now I'm checking if the user's answer is yes or no! If it isn't either one, then I will tell him a joke question, something like, "Go on then, what's your answer?".
+                if (usersAnswer == "Yes" || usersAnswer == "YES" || usersAnswer == "yes" || usersAnswer == "y" || usersAnswer == "Y")
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("GREAT!!! OMG I LOVE ASCII ART!");
+                    Console.WriteLine("Press any key to continue...");
+                    Console.ReadKey();
+                    
+                    Console.WriteLine();
+                    Console.WriteLine("Oops sorry I didn't mean to startle you with my excitement!");
+                    Console.WriteLine("Now let's continue playing the game!");
+                    Console.WriteLine("Press any key to continue...");
+                    Console.ReadLine();
+
+                    Console.WriteLine();
+                    Console.WriteLine("Welcome to \"Exquisite Corpse and the animal maker\"");
+                    Console.WriteLine("Part 2 ot the game!");
+                    Console.WriteLine("Press any key to continue...");
+                    Console.ReadKey();
+
+                    Console.WriteLine();
+                    Console.WriteLine("I hope you enjoyed the ASCII arts!\nBut don't go, I think you'll love them!");
+                    Console.WriteLine("Press any key to continue...");
+                    Console.ReadKey();
+
+                    // Just like before we will add the same optional functions, manual or random!
+                    Console.WriteLine();
+                    Console.WriteLine("Now just like before, select a mode:");
+                    Console.WriteLine("Press any key to continue...");
+                    Console.ReadKey();
+
+                    Console.WriteLine();
+                    Console.WriteLine("1. Random Animal Mode");
+                    Console.WriteLine("2. Manual Animal Mode");
+
+                    // Just like before we are going to save the string variable of the user's choice in a string variable named animalChoice!
+
+                    string animalChoice = Console.ReadLine();
+
+                    switch (animalChoice)
+                    {
+                        case "1":
+                        RandomModeAnimal();
+                        break;
+
+                        case "2":
+                        ManualModeAnimal();
+                        break;
+
+                        default:
+                        Console.WriteLine("Invalid animal choice. Exiting program.");
+                        break;
+                    }
+                    // This is were the second part of the game ends!
+                }
+                else if (usersAnswer == "No" || usersAnswer == "NO" || usersAnswer == "no" || usersAnswer == "n" || usersAnswer == "N")
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("Ok, then! You can exit the game!");
+
+                    Console.WriteLine();
+                    Console.WriteLine("Thanks for Playing!");
+                    Console.WriteLine("Press ESC key to exit...");
+
+                    // Here I add the key ESC as a valid key to exit the game!
+                    ConsoleKeyInfo keyInfo;
+                    do
+                    {
+                        keyInfo = Console.ReadKey(true); // Read key without displaying it on the console.
+                    
+                        if (keyInfo.Key == ConsoleKey.Escape) // Check if the pressed key is the ESC key.
+                        {
+                        
+                            Console.WriteLine("Exiting! Thanks for Playing!");
+                            break;
+                        }
+                        else
+                        {
+                            Console.WriteLine($"In order to exit the game, press the ESC key! You pressed {keyInfo.KeyChar}.");
+                        }
+                    }
+                   while (true);
+                }
             }
             else
             {
@@ -39,114 +241,10 @@ namespace ExquisiteCorpse_ASCIIArt
             }
            
             // This is were the first part of the game ends!
-
-
-            //SECOND PART OF THE GAME!
-
-
-
-            // This is the second part of the game!
-            Console.WriteLine();
-            Console.WriteLine("Did you like the ASCII art?");
-            Console.WriteLine("Press any key to continue...");
-            Console.ReadKey();
-            // Here I asked the user if he/she liked the ASCII art.
-            Console.WriteLine();
-            Console.WriteLine("If yes, then continue playing the game, because I have a little surprise for you!");
-            Console.WriteLine("If no, then exit the program.");
-            
-            // Here I asked the user to specify his answer with yes or no!
-
-            Console.WriteLine("Please specify your answer with (yes or no):");
-
-            // Here I'm saving the user's answer in a string variable named usersAnswer!
-            string usersAnswer = Console.ReadLine();
-            
-            // Now I'm checking if the user's answer is yes or no! If it isn't either one, then I will tell him a joke question, something like "Go on then, whats your answer?".
-            if (usersAnswer == "Yes" || usersAnswer == "YES" || usersAnswer == "yes" || usersAnswer == "y" || usersAnswer == "Y")
-            {
-                Console.WriteLine();
-                Console.WriteLine("GREAT!!! OMG I LOVE ASCII ART!");
-                Console.WriteLine("Press any key to continue...");
-                Console.ReadKey();
-
-                Console.WriteLine();
-                Console.WriteLine("Oops sorry I didn't mean to startle you with my excitement!");
-                Console.WriteLine("Now let's continue playing the game!");
-                Console.WriteLine("Press any key to continue...");
-                Console.ReadLine();
-
-                Console.WriteLine();
-                Console.WriteLine("Welcome to \"Exquisite Corpse and the animal maker\"");
-                Console.WriteLine("Part 2 ot the game!");
-                Console.WriteLine("Press any key to continue...");
-                Console.ReadKey();
-
-                Console.WriteLine();
-                Console.WriteLine("I hope you enjoyed the ASCII arts!\nBut don't go, I think you'll love them!");
-                Console.WriteLine("Press any key to continue...");
-                Console.ReadKey();
-
-                // Just like before we will add the same optional functions, manual or random!
-                Console.WriteLine();
-                Console.WriteLine("Now just like before, select a mode:");
-                Console.WriteLine("Press any key to continue...");
-                Console.ReadKey();
-
-                Console.WriteLine();
-                Console.WriteLine("1. Random Animal Mode");
-                Console.WriteLine("2. Manual Animal Mode");
-
-                // Just like before we are going to save the string variable of the user's choice in a string variable named animalChoice!
-                string animalChoice = Console.ReadLine();
-
-                switch (animalChoice)
-            {
-                case "1":
-                RandomModeAnimal();
-                break;
-
-                case "2":
-                ManualModeAnimal();
-                break;
-
-                default:
-                Console.WriteLine("Invalid animal choice. Exiting program.");
-                break;
-            }
-            // This is were the second part of the game ends!
-
-            }
-            else if (usersAnswer == "No" || usersAnswer == "NO" || usersAnswer == "no" || usersAnswer == "n" || usersAnswer == "N")
-            {
-                Console.WriteLine();
-                Console.WriteLine("Ok, then! You can exit the game!");
-
-                Console.WriteLine();
-                Console.WriteLine("Thanks for Playing!");
-                Console.WriteLine("Press ESC key to exit...");
-                
-                // Here I add the key ESC as a valid key to exit the game!
-                ConsoleKeyInfo keyInfo;
-                do
-                {
-                    keyInfo = Console.ReadKey(true); // Read key without displaying it on the console.
-                    
-                    if (keyInfo.Key == ConsoleKey.Escape) // Check if the pressed key is the ESC key.
-                    {
-                        
-                        Console.WriteLine("Exiting! Thanks for Playing!");
-                        break;
-                    }
-                    else
-                    {
-                        Console.WriteLine($"In order to exit the game, press the ESC key! You pressed {keyInfo.KeyChar}.");
-                    }
-                }
-                while (true);
-            }
         }
 
+
+        // This is where the methods start!
         static void RandomModeCreature()
         {
             Random randomNumber = new Random();
@@ -575,6 +673,8 @@ namespace ExquisiteCorpse_ASCIIArt
             }
         }
 
+
+        
         //The first ones are going to be the ones that contain the ASCII art for the different animals!
 
         //Let's start with the Dog's Head!
