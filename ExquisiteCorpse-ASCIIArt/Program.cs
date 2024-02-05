@@ -673,7 +673,7 @@ namespace ExquisiteCorpse_ASCIIArt
             }
         }
 
-
+        
         
         //The first ones are going to be the ones that contain the ASCII art for the different animals!
 
