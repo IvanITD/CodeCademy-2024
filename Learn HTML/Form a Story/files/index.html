@@ -17,22 +17,22 @@
       <!--Add your form below:-->
       <form action="story.html" method="GET">
         <label for="animal-1">Animal:</label>
-        <input id="animal-1" type="text" name="animal-1" value="Leo" required> <!--Added pre-selected animal-->
+        <input id="animal-1" type="text" placeholder="e.d. Leo" name="animal-1" value="Leo" required> <!--Added pre-selected animal and placeholder text-->
         <br>
         <label for="animal-2">Another Animal:</label>
-        <input id="animal-2" name="animal-2" type="text" value="Giraffe" required> <!--Added pre-selected second animal-->
+        <input id="animal-2" name="animal-2" type="text" placeholder="e.d. Giraffe" value="Giraffe" required> <!--Added pre-selected second animal and placeholder text-->
         <br>
         <label for="animal-3">One More Animal:</label>
-        <input id="animal-3" name="animal-3" type="text" value="Shark" required> <!--Added pre-selected third animal-->
+        <input id="animal-3" name="animal-3" type="text" placeholder="e.d. Shark" value="Shark" required> <!--Added pre-selected third animal and placeholder text-->
         <br>
         <label for="adj-1">Adjective (ends in -ed):</label>
-        <input id="adj-1" name="adj-1" type="text" value="Excited" required> <!--Added pre-selected adjective-->
+        <input id="adj-1" name="adj-1" type="text" placeholder="e.d. Excited" value="Excited" required> <!--Added pre-selected adjective and placeholder text-->
         <br>
         <label for="verb-1">Verb (ends in -ing):</label>
-        <input id="verb-1" name="verb-1" type="text" value="Running" required> <!---Added pre-selected verb-->
+        <input id="verb-1" name="verb-1" type="text" placeholder="e.d. Running" value="Running" required> <!---Added pre-selected verb and placeholder text-->
         <br>
         <label for="num-1">Number:</label>
-        <input id="num-1" name="num-1" type="number" value="1" requested min="1" max="10"> <!--Added pre-selected number-->
+        <input id="num-1" name="num-1" type="number" placeholder="1" value="1" requested min="1" max="10"> <!--Added pre-selected number and placeholder text-->
         <br>
         <span>Yes or No:</span>
         <input id="yes" name="answer" type="radio" required checked> <!--Added pre-selected button answer selection-->
@@ -53,9 +53,9 @@
           <option value="Winner gets chocolate bar"></option>
           <option value="Winner gets sandwich"></option>
         </datalist>
-        <br> <!--Add placeholder text that contains examples for users.-->
+        <br>
         <label for="message">Meaningfull Message:</label>
-        <textarea id="message" name="message" required rows="8" cols="40">"Every step forward is progress."</textarea>
+        <textarea id="message" name="message" placeholder="&quot;Every step forward is progress.&quot;" required rows="8" cols="40">"Every step forward is progress."</textarea> <!--Added a placeholder message into the text area-->
         <br>
         <input type="submit" value="Form My Story!">
       </form>
