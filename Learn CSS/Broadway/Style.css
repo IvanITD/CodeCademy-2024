@@ -13,20 +13,26 @@ html, body {
   nav {
     margin: 0;
     padding: 20px 0;
+    
   }
+  nav ul {
+    padding: 0;
+    text-align: center;
+    }
   
   nav li {
     color: #fff;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 15px;
     display: inline-block;
     width: 80px;
   }
-  nav li :hover {
-    color: #333;
+  nav li:hover {
     background-color: #fff;
+    color: #333;
     transition: 0.5s;
+
   }
   
   main {
