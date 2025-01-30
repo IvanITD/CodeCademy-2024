@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleCreatures")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55e152e3af6a284594f10afbd7ce37681b6d9d9d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09118fc1d780d8bca3983bd98dabe181ac582727")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsoleCreatures")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsoleCreatures")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
